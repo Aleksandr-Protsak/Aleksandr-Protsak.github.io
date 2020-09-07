@@ -5,14 +5,17 @@
 **e-mail:** oleksandr.protsak@gmail.com
 
 **Skills:**
-        *HTML5/CSS3
-        *Javascript
-            *React
-            *Vue
-            *Node
-        *PHP
-        *WordPress
+
+ HTML5/CSS3
+ Javascript
+ React
+ Vue
+ Node
+ PHP
+ WordPress
         
 **Experience:**
 
-   Website - portfolio - [http://aleksandrprotsak.000webhostapp.com/](http://aleksandrprotsak.000webhostapp.com/)
+   Website - portfolio - [http://aleksandrprotsak.000webhostapp.com/](http://aleksandrprotsak.000webhostapp.com/).
+   
+**English:** Pre-intermediate.
