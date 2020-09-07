@@ -7,11 +7,17 @@
 **Skills:**
 
  HTML5/CSS3
+ 
  Javascript
+ 
  React
+ 
  Vue
+ 
  Node
+ 
  PHP
+ 
  WordPress
         
 **Experience:**
