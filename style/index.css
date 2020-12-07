@@ -1,0 +1,383 @@
+html, body{
+	height: 100%;
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: #fafbfc !important;
+}
+
+header{
+	position: fixed;
+	z-index: 10;
+	width: 100%;
+	height: 100%;
+	max-height: 75px;
+	margin-bottom: 40px;
+	background-color: #29333E;
+	color: #fff;
+	line-height: 1;
+}
+
+header,
+.header-content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+main{
+	padding-top: 115px;
+}
+
+ul{
+	list-style: none;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.name{
+	font-size: 2em;
+	font-weight: 550;
+}
+
+.nav-items{
+	display: flex;
+	flex-direction: row;
+}
+
+.nav-items li:not(:first-child){
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 0 0 20px;
+	border: 1px solid #FFFFFF;
+	border-radius: 50%;
+}
+
+.nav-items li img{
+	width: 20px;
+	height: 20px;
+	margin: 10px;
+}
+
+.nav-items li:first-child img{
+	width: 40px;
+	height: 40px;
+	margin: 0;
+}
+
+.content-block{
+	width: 100%;
+	padding: 20px 15px;
+	margin-bottom: 20px;
+	border: .5px solid rgba(196, 196, 196, .4);
+	border-radius: 3px;
+	background-color: #fff;
+}
+
+.title-block{
+	font-size: 1.3em;
+	line-height: 1.2;
+	color: #29333E;	
+	padding: 0 0 15px;
+	margin-bottom: 15px;
+	border-bottom: .7px solid rgba(196, 196, 196, .5);
+}
+
+/*
+						INTRODUCTION BLOCK STYLE
+*/
+
+.introduction-block p{
+	font-size: 18px;
+}
+
+/*
+						SKILLS BLOCK STYLE
+*/
+
+.skills-list{
+	padding: 0;
+	margin: 40px 0 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.skill-item{
+	width: 4%;
+	max-width: 75px;
+	margin: 0 30px 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skill-wide-item{
+	width: 100%;
+	max-width: 130px;
+}
+
+.skill-icon-block{
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.skill-title{
+	margin: 5px 0;
+	font-size: .9em;
+	font-weight: 500;
+	text-align: center;
+}
+
+/*
+						WORK EXPERIENCE STYLE
+*/
+
+.work-experience-list{
+	display: flex;
+	margin: 30px 0 10px !important;
+}
+
+.work-experience-item{
+	display: flex;
+	flex-direction: row;
+	padding: 8px 20px 8px 0;
+	border-right: .7px solid rgba(196, 196, 196, .5)
+}
+
+.company-logo{
+	display: flex;
+	align-items: center;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.position-detail{
+	display: flex;
+	flex-direction: column;
+	margin-left: 15px;
+}
+
+.company-name{
+	font-size: 1em;
+	margin: 0;
+}
+
+.company-name a{
+	text-decoration: none;
+	color: #29333E;
+}
+
+.company-name a:hover,
+.company-name a:focus{
+	color: #29333E;
+}
+
+.position{
+	margin: 3px 0 5px;
+	font-size: .8em;
+	font-weight: 450;
+	line-height: 1.1;
+}
+
+.work-duration{
+	font-size: .7em;
+	line-height: 1.1;
+	margin: 0;
+}
+
+/*
+						LANGUAGES LIST STYLE
+*/
+
+.language-item{
+	display: flex;
+	margin-bottom: 15px;
+}
+
+.language-item p{
+	margin: 0 10px 0 0;
+	padding: 3px;
+	font-size: 14px;
+	color: #fff;
+	border-radius: 3px;
+	background-color: #29333E
+}
+
+.language-item span{
+	display: flex;
+	align-items: center;
+	margin-left: 10px;
+}
+
+/*
+						GITHUB PROJECTS LIST STYLE
+*/
+
+.github-projects-list{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.github-widget{
+	width: 32.7%;
+	margin-bottom: 20px;
+}
+
+/*
+						FOOTER STYLE
+*/
+
+footer{
+	width: 100%;
+	background-color: #29333E;
+}
+
+footer p{
+	width: 100%;
+	font-size: 1.1em;
+	line-height: 1.2;
+	color: #fff;
+	padding: 15px 0;
+	text-align: center;
+}
+
+@media ( max-width: 1023px ){
+	.skill-item{
+		width: 6%;
+	}
+	.skill-wide-item {
+		width: 100%;
+	    max-width: 90px;
+	}
+	.skills-list{
+		justify-content: flex-start;
+	}
+		.github-widget {
+	    width: 49%;
+	}
+} 
+
+@media ( max-width: 767px ){
+	.skill-item{
+		width: 10%;
+	}
+	.skill-wide-item {
+		width: 100%;
+	    max-width: 70px;
+	}
+	.github-widget {
+	    width: 100%;
+	}
+	.name{
+		font-size: 1.5em;
+	}
+	.nav-items li img {
+	    width: 15px;
+	    height: 15px;
+	    margin: 7px;
+	}
+	.nav-items li:first-child img {
+	    width: 29px;
+	    height: 29px;
+	    margin: 0;
+	}
+	header{
+		max-height: 50px;
+		margin-bottom: 20px;
+	}
+	main{
+		padding-top: 70px;
+	}
+	.title-block{
+		font-size: 1em;
+	}
+	footer p {
+	    font-size: .9em;
+	    padding: 10px 0;
+	}
+}
+
+@media ( max-width: 424px ){
+	.content-block {
+	    padding: 15px 10px;
+	    margin-bottom: 15px;
+	}
+	.skill-item{
+		margin: 10px 25px 10px 0;
+	}
+	.skill-wide-item {
+		width: 100%;
+	    max-width: 70px;
+	}
+	.skill-title,
+	.position{
+	    font-size: .7em;
+	}
+	.name{
+		font-size: 1.1em;
+		margin: 0;
+	}
+	.nav-items li{
+		width: 22px;
+		height: 22px
+	}
+	.nav-items li img {
+	    width: 10px;
+	    height: 10px;
+	    margin: 5px;
+	}
+	.nav-items li:first-child img {
+	    width: 20px;
+	    height: 20px;
+	    margin: 0;
+	}
+	.work-experience-item {
+		width: 100%;
+	    border-right: none;
+	}
+	.company-name{
+		font-size: .9em
+	}
+	.work-duration{
+		font-size: .6em;
+	}
+	header{
+		max-height: 50px;
+		margin-bottom: 20px;
+	}
+	main{
+		padding-top: 70px;
+	}
+	.title-block{
+		font-size: 1em;
+		padding-bottom: 10px;
+		margin-bottom: 10px;
+	}
+	.github-widget{
+		margin-bottom: 15px;
+	}
+	.github-box .github-box-title h3{
+		font-size: 14px !important;
+	}
+	footer p {
+	    font-size: .9em;
+	    padding: 10px 0;
+	}
+}
